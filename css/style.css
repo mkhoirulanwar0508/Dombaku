@@ -1,1 +1,12 @@
+/* Style untuk menu aktif di bottom navbar */
+.nav-item.active {
+    color: #F59E0B !important; /* Warna Amber-400 (Kuning) */
+    font-weight: 700;
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
 
+.nav-item {
+    color: #A7F3D0; /* Warna Emerald-200 (Default) */
+    transition: all 0.3s ease;
+}
